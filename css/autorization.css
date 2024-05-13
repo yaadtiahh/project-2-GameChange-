@@ -13,7 +13,7 @@ body{
   justify-content: center;
   height: inherit;
   overflow: hidden;
-  background-image: url(https://avatanplus.com/files/resources/original/56d87d5b5f4861533da9acfe.png);
+  background-image: url(/scripts/images/background1.png);
   background-repeat: no-repeat;
   background-size: cover;
   animation-name: dynamism;
