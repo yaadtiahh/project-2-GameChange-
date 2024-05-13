@@ -24,8 +24,16 @@
                 </a>
             </div>
             <div class="search-form">
-                <input type="text" id="searchInput" placeholder="Поиск">
+                <form>
+                    <button type="submit" class="search-button">
+                        <svg class="submit-button">
+                          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#search"></use>
+                        </svg>
+                    </button>
+                    <input type="text" id="searchInput" placeholder="Поиск">
+                </form>
             </div>
+
             <div class="profile-dropdown">
                 <button id="profile-btn">
                     <img src="images/profile.png" class="profile-icon" alt="Profile">
