@@ -6,14 +6,14 @@ html {
 }
 
 body{
-  color: black;
+  color: rgb(255, 255, 255);
   font-family: 'Nova Square', sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
   height: inherit;
   overflow: hidden;
-  background-image: url(/scripts/images/background1.png);
+  background-image: url(../scripts/images/background1.png);
   background-repeat: no-repeat;
   background-size: cover;
   animation-name: dynamism;
@@ -28,7 +28,7 @@ body{
   padding: 50px 30px 44px;
   border-radius: 1.25rem;
   text-align: center;
-  background-color: #f0f0f0; 
+  background-color: #094db438; 
 }
 
 .web_form {
