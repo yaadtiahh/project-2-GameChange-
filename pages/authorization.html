@@ -11,16 +11,27 @@
 <body>
   
   <div class="authorization">
-    <h1>Авторизация</h1>
-    
+    <div class="form">
+      <h1>Sign in</h1>
+    </div>
     <form class="web_form">
-      <input type="text" placeholder="Логин">
-      <input type="password" placeholder="Пароль">
-      <a href="">Забыли пароль?</a>
-      <button type="submit">Войти</button>
+      <div class="form-item">
+        <input type="text" class="form-input" required>
+        <label class="form-label">Email</label>
+      </div>
+      <div class="form-item">
+        <input type="password" id="form-pass" class="form-input" required>
+        <label class="form-label">Password</label>
+        <span class="pass-icon" id="pass-icon"><img id="myImg" src="../images/no-view.svg" style="width:20px;height:20px;"></span>
+      </div>
+      <div class="forgot-password">
+        <a href="">Forgot password?</a>
+      </div>
+      <button type="submit">Login</button>
     </form>
     
   </div>
+  <script src="../scripts/autorization.js"></script>
 </body>
 
 </html>
