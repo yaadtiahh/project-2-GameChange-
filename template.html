@@ -17,19 +17,27 @@
 
 <body>
     <header>
-      <div class="logo">
-        <a href="/">
-          <img src="images/logo_ru.jpeg" alt="Логотип Rockstar Games" class="logo-img">
-        </a>
-      </div>
-      <div class="search-form">
-        <input type="text" id="searchInput" placeholder="Поиск">
-      </div>
-      <div class="profile-form">
-        <a href="#">
-          <img src="images/profile.png" alt="Профиль" class="profile-icon">
-        </a>
-      </div>
+        <div class="header-box">
+            <div class="logo">
+                <a href="/">
+                  <img src="images/logo_ru.jpeg" alt="Логотип Rockstar Games" class="logo-img">
+                </a>
+            </div>
+            <div class="search-form">
+                <input type="text" id="searchInput" placeholder="Поиск">
+            </div>
+            <div class="profile-dropdown">
+                <button id="profile-btn">
+                    <img src="images/profile.png" class="profile-icon" alt="Profile">
+                </button>
+                <div id="profile-menu">
+                    <div class="profile-menu-content">
+                        <a href="#" class="btn-signin">Sign In</a>
+                        <a href="#" class="btn-signup">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
     <script>
       function performSearch() {
@@ -38,6 +46,7 @@
         // Здесь вы можете добавить логику отправки запроса к серверу или поиска на текущей странице
       }
     </script>
+    <script src="scripts/script.js"></script>
   </body>
   
 </html>
