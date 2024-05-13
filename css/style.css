@@ -44,6 +44,10 @@ header {
     width: 38px;
 }
 
+.profileForm a {
+    margin-right: 20px; 
+}
+
 /* .profileForm .profile a:hover {
   
 } */
