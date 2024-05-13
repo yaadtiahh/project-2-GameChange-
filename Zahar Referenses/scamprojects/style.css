@@ -1,0 +1,259 @@
+html{
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    height: 100%;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing:antialiased;
+    margin: 0px;
+    background-color: #141414;
+}
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #111111;
+    
+}
+
+.header-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    color: transparent;
+    background-color: transparent;
+    background-image: url(img/header.png);
+}
+
+/* HAMBURGER-MENU */
+.menu-hamburger {
+    width: 30px;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    position: relative;
+    margin-left: 130px;
+}
+
+.bar {
+    border-radius: 2px;
+    display: block;
+    width: 30px;
+    height: 2px;
+    margin: 4px auto;
+    background-color: #ffffff;
+    transition: transform 0.4s ease-in-out, background-color 0.4s ease-in-out;
+}
+
+.menu-hamburger.join .bar:first-child {
+      transform: translateY(475%);
+}
+
+.menu-hamburger.join .bar:last-child {
+      transform: translateY(-475%);
+}
+
+
+.mobile-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.nav-links {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #181818;
+    width: 35%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-100%);
+    transition: transform 0.4s ease;
+    flex-direction: column;
+}
+
+.nav-links.mobile-menu {
+    transform: translateX(0);
+}
+
+.nav-links ul {
+    padding: 0;
+    list-style: none;
+}
+
+.nav-links ul li {
+    margin: 25px 0;
+    font-size: 1.2em;
+}
+
+.nav-links ul li a {
+    font-size: 20px;
+    letter-spacing: -0.5px;
+    text-decoration: none;
+    color: white;
+}
+
+    /*button*/
+
+/* Hamburger-menu close */
+
+
+
+
+.logo {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*PROFILE SECTION*/
+
+
+.profile-dropdown {
+    position: relative;
+}
+
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 130px;
+    position: relative;
+}
+
+.profile-icon {
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+}
+
+#profile-menu {
+    display: none;
+    position: absolute;
+    top: calc(100% + 20px);
+    left: 0;
+    transform: translateX(-50%);
+    background-color: black;
+    padding: 0px;
+    border-radius: 10px;
+    border: 1px solid #626262;
+    z-index: 999;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile-menu-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-menu-content a {
+    padding: 20px 150px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+    width: 100%; /* Расширяем кнопки на всю ширину */
+    box-sizing: border-box; /* Учитываем padding и border в ширине */
+    white-space: nowrap;
+    padding-left: 16px;
+}
+.btn-signin{
+    border-radius: 9px 9px 0px 0px;
+}
+.btn-signup{
+    border-radius: 0px 0px 9px 9px;
+}
+.profile-menu-content a:not(:last-child) {
+    border-bottom: 1px solid #626262;
+}
+
+.profile-menu-content a:hover {
+    background-color: rgba(244, 244, 244, 0.28);
+}
+
+
+/*PROFILE SECTION CLOSE*/
+
+
+/*main photo*/
+.photo-block {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.photo-block img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+/*main photo close*/
+
+@media (max-width: 600px) {
+    .header-box {
+        justify-content: space-between;
+    }
+
+    .menu-hamburger {
+        margin-left: 0;
+    }
+
+    .logo {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    
+}
+
+@media (min-width: 992px) {
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

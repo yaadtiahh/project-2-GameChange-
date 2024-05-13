@@ -28,29 +28,10 @@ html {
   .search-form {
     display: flex;
     align-items: center;
-<<<<<<< HEAD
   }
   
   #searchInput {
     width: 600px;
-=======
-    justify-content: space-between;
-
-}
-
-.profileForm .profile img {
-    height: 56px;
-    width: 56px;
-}
-
-.profileForm .languageChange img {
-    height: 38px;
-    width: 38px;
-}
-
-#searchInput {
-    width: 300px;
->>>>>>> db11434a20fc99a68d15037dd4318bab9866b4ec
     padding: 10px;
     font-size: 16px;
   }
