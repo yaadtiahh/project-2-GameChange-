@@ -2,64 +2,50 @@ html {
     height: 100%;
     -webkit-text-size-adjust: 100%;
     text-size-adjust: 100%;
-}
-
-body{
+  }
+  
+  body {
     font-family: 'Inter', sans-serif;
     background-color: #0F151A;
     text-rendering: optimizeLegibility;
-    -webkit-font-smoothing:antialiased;
-    margin: 0px;
-}
-
-header {
-    background-color: #000000;
-    padding: 10px 20px;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+  }
+  
+  header {
+    background-color: #141414;
     display: flex;
     height: 80px;
     align-items: center;
     justify-content: space-between;
-    padding: 12px 240px 12px 240px;
-}
-
-
-.logo img {
-  width: 100px; 
-}
-
-.profileForm {
+    padding: 0 240px;
+  }
+  
+  .logo img {
+    width: 100px;
+  }
+  
+  .search-form {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-
-}
-
-.profileForm .profile img {
-    height: 56px;
-    width: 56px;
-}
-
-.profileForm .languageChange img {
-    height: 38px;
-    width: 38px;
-}
-
-.profileForm a {
-    margin-right: 20px; 
-}
-
-/* .profileForm .profile a:hover {
+  }
   
-} */
-
-#searchInput {
-    width: 300px;
+  #searchInput {
+    width: 600px;
     padding: 10px;
     font-size: 16px;
-    
-}
-#searchButton {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-} 
+  }
+  
+  .profile-form {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .profile-icon .language-icon {
+    height: 56px;
+    width: 56px;
+  }
+
+  
+  
