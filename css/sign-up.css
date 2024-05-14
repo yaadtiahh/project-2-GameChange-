@@ -11,15 +11,22 @@ body{
   justify-content: center;
   height: inherit;
   overflow: hidden;
-  background-image: url(../images/background1.png);
+  background-image: url(../images/signbackground.png);
   background-repeat: no-repeat;
   background-size: cover;
   animation-name: dynamism;
-  animation-duration: 6s;
+  animation-duration: 9s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
 }
+
+@keyframes dynamism{
+  to{
+    background-position: 100%;
+  }
+}
+
 
 .authorization{
   width: 600px;
@@ -105,12 +112,6 @@ button:hover {
 .forgot-password a:hover{
   color: #981086;
   transition: all 0.375s;
-}
-
-@keyframes dynamism{
-  to{
-    background-position: 15% 50%;
-  }
 }
 
 .form-item {
