@@ -1,3 +1,11 @@
+var i=0;
+var image=document.getElementById("myImg");
+var imgs=new Array('../images/no-view.svg','../images/view.svg');
+function imgsrc() {
+    i++;i%=imgs.length;
+    image.src = imgs[i];
+}
+
 const inputPass = document.
 getElementById('form-pass');
 const iconPass = document.
@@ -14,4 +22,5 @@ iconPass.addEventListener('click', () =>
         'password');
     }
 });
+
 
