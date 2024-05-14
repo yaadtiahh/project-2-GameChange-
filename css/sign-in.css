@@ -23,7 +23,7 @@ body{
 
 @keyframes dynamism{
   to{
-    background-position: 100%;
+    background-position: 0% 100%;
   }
 }
 
