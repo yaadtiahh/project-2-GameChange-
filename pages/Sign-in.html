@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Authorization form</title>
+  <title>Sign in form</title>
   <link href="../css/authorization.css" rel="stylesheet" type="text/css" />
 </head>
 
@@ -15,23 +15,31 @@
       <h1>Sign in</h1>
     </div>
     <form class="web_form">
+
       <div class="form-item">
         <input type="text" class="form-input" required>
         <label class="form-label">Email</label>
       </div>
+
       <div class="form-item">
         <input type="password" id="form-pass" class="form-input" required>
         <label class="form-label">Password</label>
         <span class="pass-icon" id="pass-icon">
-          <!-- <img id="myImg" src='../images/no-view.svg' onclick='this.src="../images/view.svg"' style="width:20px;height:20px;"> -->
-          <img id="myImg" src="" onClick="imgsrc();" style="width:20px;height:20px;">
-
+          <img id="myImg" src="../images/no-view.svg" onClick="imgsrc();" style="width:20px;height:20px;">
         </span>
       </div>
+
       <div class="forgot-password">
         <a href="">Forgot password?</a>
       </div>
       <button type="submit">Login</button>
+
+      <p>or continue with</p>
+      <div class="sign">
+        <span class="sign-icon" id="sign-icon">
+          <a href=""><img src="../images/Facebook.svg" style="width:45px;height:45px;"></a>
+          <a href=""><img src="../images/google.svg" style="width:45px;height:45px;"></a>
+        </span>
     </form>
     
   </div>
