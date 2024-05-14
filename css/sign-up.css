@@ -115,8 +115,6 @@ button:hover {
 }
 
 .form-item {
-  display: inline-block;
-  vertical-align: center;
   position: relative;
 }
 
@@ -152,16 +150,11 @@ button:hover {
   font-size: 12px;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-#myImg {
+.pass-icon {
   position: absolute;
   right: 23px;
   top: 22px;
   cursor: pointer;
 }
+
 
