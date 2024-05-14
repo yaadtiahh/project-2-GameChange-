@@ -28,10 +28,10 @@ body{
 }
 
 .authorization{
-  width: 600px;
-  height: 660px;
+  width: 500px;
+  height: 650px;
   padding: 50px 30px 50px 30px;
-  border-radius: 50px;
+  border-radius: 10px;
   background-color: #0000008e;
 }
 
@@ -46,9 +46,9 @@ body{
 h1 {
   text-align: left;
   width: 370px;
-  margin-top: 40px;
   margin-bottom: 5px;
-  margin-left: 85px;
+  margin-left: 30px;
+  text-shadow: 0 0 5px #ffffff;
 }
 
 button {
@@ -59,7 +59,7 @@ button {
   width: 370px;
   padding-left: 16px;
   padding-right: 16px;
-  margin-top: 50px;
+  margin-top: 30px;
   border-radius: 10px;
   border: 0;
   font-size: 16px;
@@ -73,7 +73,7 @@ button {
 }
 
 .sign {
-  margin-top: 35px;
+  margin-top: 25px;
   display: flex;
 }
 
@@ -95,7 +95,17 @@ margin: 5px;
 p {
   color: #b4b4b4;
   font-size: 15px;
-  margin-top: 50px;
+  margin-top: 30px;
+}
+
+.not-member p{
+  color: #b4b4b4;
+  font-size: 15px;
+}
+
+.not-member a{
+  color: orange;
+  text-decoration: none
 }
 
 input:hover {
@@ -163,3 +173,4 @@ button:hover {
   top: 22px;
   cursor: pointer;
 }
+
