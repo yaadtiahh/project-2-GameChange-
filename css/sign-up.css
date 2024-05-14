@@ -1,0 +1,166 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  color: rgb(255, 255, 255);
+  font-family: 'Nova Square', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: inherit;
+  overflow: hidden;
+  background-image: url(../images/background1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation-name: dynamism;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+.authorization{
+  width: 600px;
+  height: 720px;
+  padding: 50px 30px 50px 30px;
+  border-radius: 50px;
+
+}
+
+.web_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+h1 {
+  text-align: left;
+  width: 370px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  margin-left: 85px;
+}
+
+button {
+  height: 50px;
+}
+
+button {
+  width: 370px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 30px;
+  border-radius: 10px;
+  border: 0;
+  font-size: 16px;
+  font-weight: medium;
+  text-align: center;
+  line-height: 2px;
+  background-color: #6300bb;
+  color: #ffffff;
+  text-shadow: 0 0 5px #ffffff;
+  cursor: pointer;
+}
+
+.sign {
+  margin-top: 35px;
+  display: flex;
+}
+
+.sign a {
+margin: 5px;
+}
+
+.forgot-password {
+  width: 370px;
+  text-align: right;
+}
+
+.forgot-password a{
+  color: #b4b4b4;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+p {
+  color: #b4b4b4;
+  font-size: 15px;
+  margin-top: 50px;
+}
+
+input:hover {
+  border: solid 2px #10449A;
+  transition: all 0.375s;
+}
+
+button:hover {
+  background-color: #981086;
+  transition: all 0.375s;
+}
+
+.forgot-password a:hover{
+  color: #981086;
+  transition: all 0.375s;
+}
+
+@keyframes dynamism{
+  to{
+    background-position: 15% 50%;
+  }
+}
+
+.form-item {
+  display: inline-block;
+  vertical-align: center;
+  position: relative;
+}
+
+.form-input {
+  width: 370px;
+  height: 60px;
+  border: solid 2px #ebebeb;
+  font-size: 16px;
+  padding: 0px 10px 0px 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  background-color: #f0efff;
+  color: rgb(0, 0, 0);
+}
+
+.form-label {
+  position: absolute;
+  pointer-events: none;
+  left: 25px;
+  top: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  line-height: 65px;
+  transition: .2s;
+  color: #a9a6ff;
+  display: flex;
+  align-items: center;
+}
+
+.form-input:focus~.form-label,
+.form-input:not(:focus):valid~.form-label {
+  top: -19px;
+  font-size: 12px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#myImg {
+  position: absolute;
+  right: 23px;
+  top: 22px;
+  cursor: pointer;
+}
+
